@@ -1,6 +1,6 @@
-import React, { useCallback } from 'react';
+import React, { useCallback } from 'react'
 
-import api from '../../services/api';
+import api from '../../services/api'
 import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
 
 import './styles.css'
@@ -57,4 +57,4 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
   )
 }
 
-export default TeacherItem;
+export default TeacherItem

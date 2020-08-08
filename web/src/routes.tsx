@@ -1,9 +1,9 @@
-import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import React from 'react'
+import { BrowserRouter, Route } from 'react-router-dom'
 
-import Landing from './pages/Landing';
-import TeachersList from './pages/TeachersList';
-import TeacherForm from './pages/TeacherForm';
+import Landing from './pages/Landing'
+import TeachersList from './pages/TeachersList'
+import TeacherForm from './pages/TeacherForm'
 
 function Routes() {
   return (
@@ -15,4 +15,4 @@ function Routes() {
   )
 }
 
-export default Routes;
+export default Routes

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 import logoImg from '../../assets/images/logo.svg'
 import backIcon from '../../assets/images/icons/back.svg'
@@ -7,8 +7,8 @@ import backIcon from '../../assets/images/icons/back.svg'
 import './styles.css'
 
 interface PageHeaderProps {
-  title: string;
-  description?: string;
+  title: string
+  description?: string
 }
 
 const PageHeader: React.FC<PageHeaderProps> = ({ title, description, children }) => {
@@ -30,4 +30,4 @@ const PageHeader: React.FC<PageHeaderProps> = ({ title, description, children })
   )
 }
 
-export default PageHeader;
+export default PageHeader

@@ -1,12 +1,13 @@
-import React, { FormEvent, useCallback, useState } from 'react';
+import React, { FormEvent, useCallback, useState } from 'react'
 
 import PageHeader from '../../components/PageHeader'
 import TeacherItem, { Teacher } from '../../components/TeacherItem'
-import Input from '../../components/Input';
-import Select from '../../components/Select';
+import Input from '../../components/Input'
+import Select from '../../components/Select'
+
+import api from '../../services/api'
 
 import './styles.css'
-import api from '../../services/api';
 
 function TeachersList() {
   const [teachers, setTeachers] = useState([])
@@ -26,7 +27,7 @@ function TeachersList() {
       }
     })
 
-    setTeachers(response.data);
+    setTeachers(response.data)
   }, [subject, time, week_day])
 
   return (
@@ -89,4 +90,4 @@ function TeachersList() {
   )
 }
 
-export default TeachersList;
+export default TeachersList
